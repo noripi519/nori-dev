@@ -1,0 +1,52 @@
+#mobile-menu {
+  z-index: 30;
+  position: absolute;
+}
+
+#mobile-menu__btn > span {
+  display: none;
+}
+
+#mobile-menu__item {
+  font-size: 14px;
+  border-bottom: none;
+  margin-right: 10px;
+}
+
+#mobile-menu__item:hover {
+  border-bottom: none;
+}
+
+.mobile-menu__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: -35px;
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+}
+
+#mobile-menu-about {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.setu {
+  padding-top: 30px;
+  margin-left: 40px;
+}
+
+.title-s {
+  margin-top: 70px;
+}
+/*# sourceMappingURL=tablet.css.map */

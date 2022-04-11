@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NORI`s Portfolio</title>
+  <meta name="ポートフォリオ" content="This is Portfolio.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" href="images/image0.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- mobile-menu -->
+  <div id="global-container">
+    <nav id="mobile-menu">
+      <ul class="mobile-menu__main">
+        <li id="mobile-menu__item">
+          <a href="#mobile-menu-about">
+            <span class="mobile-menu__main-title">About</span>
+          </a>
+        </li>
+        <li id="mobile-menu__item">
+          <a href="#mobile-menu-skills">
+            <span class="mobile-menu__main-title">Skills</span>
+          </a>
+        </li>
+        <li id="mobile-menu__item">
+          <a href="#mobile-menu-service">
+            <span class="mobile-menu__main-title">Service</span>
+          </a>
+        </li>
+        <li id="mobile-menu__item">
+          <a href="#mobile-menu-contact">
+          <span class="mobile-menu__main-title">Contact</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div id="container">
+    <!-- header -->
+    <header>
+      <a class="big-title" href="http://127.0.0.1:5500/%E3%83%9D%E3%83%BC%E3%83%88%E3%83%95%E3%82%A9%E3%83%AA%E3%82%AA/index.html"><h1>NORI`s Portfolio</h1></a>
+      <button id="mobile-menu__btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <!-- About -->
+    <div class="container">
+      <div id="mobile-menu-about">
+        <h2 class="title"><span class="under">About</span></h2>
+        <div class="about">
+          <div class="about_image">
+            <img class="image0" src="images/image0.png" alt="">
+            <h3 class="name">NORI</h3>
+          </div>
+            <p class="setu">2013年トヨタ系企業へ技能研修生として入社。<br>
+              自由な時間と収入を手に入れるべく<br>独学でWeb制作の学習を開始。<br>
+              個人にて案件対応しながら活動しています。</p>
+          </div>
+        </div>
+        <!-- Skills -->
+        <div id="mobile-menu-skills">
+          <h2 class="title-s"><span class="under">Skills</span></h2>
+          <div class="skills__main">
+            <div class="skills__img1">
+              <img class="image1" src="images/152843.png" alt="">
+              <p class="p1">HTML</p>
+            </div>
+            <div class="skills__img2">
+              <img class="image2" src="images/image2.png" alt="">
+              <p class="p2">CSS</p>
+            </div>
+            <div class="skills__img3">
+              <img class="image3" src="images/image4.png" alt="">
+              <p class="p3">SASS</p>
+            </div>
+            <div class="skills__img4">
+              <img class="image4" src="images/image3.png" alt="">
+              <p class="p4">JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <!-- Service -->
+        <div id="mobile-menu-service">
+          <div class="service__main">
+            <h2 class="title"><span class="under">Service</span></h2>
+            <div class="service__sub">
+              <div class="service__web">
+                <h3>Web制作</h3>
+                <img class="image5" src="images/images5.png" alt="">
+                <p class="service__p1">Javascriptを使用した動きのある<br>Webサイトの制作をお受けしています。
+                  <br>要望などに対して、迅速かつ丁寧に対応します。</p>
+                </div>
+                <div class="service__web">
+                  <h3>レスポンシブ対応</h3>
+                  <img class="image6" src="images/14362-300x300.jpg" alt="">
+                  <p class="service__p2">PC、タブレット、スマホ、それぞれの端末に適した<br>
+                    見やすいサイトの制作を行います。</p>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- Contact -->
+              <div id="mobile-menu-contact">
+                <div class="contact__main">
+                  <h2 class="title"><span class="under">Contact</span></h2>
+                  <div class="contact__name">
+                    <p class="contact__p1"><span class="contact__spn">必須</span>お名前</p>
+                    <div class="contact__form">
+                      <form>
+                          <input type="text" class="contact__message" name="name" placeholder="山田 太郎">
+                        </div>
+                      </div>
+                      <div class="contact__title">
+                        <p class="contact__p2"><span class="contact__spn">必須</span>メールアドレス</p>
+                        <div class="contact__form">
+                          <input type="text" class="contact__message" name="mail" placeholder="aaaaa@xx.xx.jp">
+                        </div>
+                      </div>
+                      <div class="contact__title">
+                        <p class="contact__p3"><span class="contact__spn">必須</span>題名</p>
+                        <div class="contact__form">
+                          <input type="text" class="contact__message" name="text" placeholder="◯◯について">
+                        </div>
+                      </div>
+                      <div class="contact__title">
+                        <p class="contact__p4"><span class="contact__spn">必須</span>メッセージ本文</p>
+                      <div class="contact__form">
+                        <textarea id="inquiry"  name="comment"></textarea>
+                      </div>
+                    </div>
+                    <div class="contact__sousin">
+                      <input type="submit" class="contact__sousin__btn" value="内容を送信する">
+                    </div>
+                    <!-- </form> -->
+                  </form>
+                </div>
+              </div>
+              <!-- footer -->
+              <footer>
+                <p id="copyright">
+                  <Small>© NORI's Portfolio All rights reserved.</Small>
+                </p>
+              </footer>
+            </div>
+          </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+          <script>
+            $('#page-link a[href*="#"]').click(function () {
+              var elmHash = $(this).attr('href'); 
+              var pos = $(elmHash).offset().top;
+              $('body,html').animate({scrollTop: pos}, 500);
+              return false;
+            });
+            </script>
+        <script>
+          $("#mobile-menu__btn").click(function () {
+            $("#global-container").toggleClass('menu-open');
+          });     
+          $("a").click(function () {
+            $("#global-container").removeClass('menu-open');
+          });
+          </script>
+      </body>
+        </html>

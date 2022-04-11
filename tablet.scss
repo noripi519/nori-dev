@@ -1,0 +1,47 @@
+#mobile-menu {
+  z-index: 30;
+  position: absolute;
+
+  &__btn {
+    & > span {
+      display: none;
+    }
+  }
+
+  &__item {
+    font-size: 14px;
+    border-bottom: none;
+    margin-right: 10px;
+    
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}
+
+.mobile-menu__main {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: -35px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#mobile-menu-about {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.setu {
+  padding-top: 30px;
+  margin-left: 40px;
+}
+
+.title-s {
+  margin-top: 70px;
+}
